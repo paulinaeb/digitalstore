@@ -1,0 +1,71 @@
+<!doctype html>
+Define que el documento está bajo el estándar de HTML.
+
+<head>
+Representa una colección de metadatos acerca del documento, incluyendo enlaces a, o definiciones de, scripts y hojas de estilo.
+
+<title>
+Define el título del documento, el cual se muestra en la barra de título del navegador o en las pestañas de página. Solamente puede contener texto y cualquier otra etiqueta contenida no será interpretada.
+
+<base>
+Define la URL base para las URLs relativas en la página.
+
+<link>
+Usada para enlazar JavaScript y CSS externos con el documento HTML actual.
+
+<meta>
+Define los metadatos que no pueden ser definidos usando otro elemento HTML.
+
+<style>
+Etiqueta de estilo usada para escribir CSS en línea.
+
+<body>
+Representa el contenido principal de un documento HTML. Solo hay un elemento <body> en un documento.
+
+<section>
+Define una sección en un documento.
+
+<nav>
+Define una sección que solamente contiene enlaces de navegación
+
+<article>
+Define contenido autónomo que podría existir independientemente del resto del contenido.
+
+<aside>
+Define algunos contenidos vagamente relacionados con el resto del contenido de la página. Si es removido, el contenido restante seguirá teniendo sentido
+
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+Los elemento de cabecera implementan seis niveles de cabeceras de documentos; <h1> es la de mayor jerarquía y <h6> es la de menor importancia. Un elemento de cabecera describe brevemente el tema de la sección que introduce.
+
+<header>
+Usualmente contiene un logotipo, el título del sitio Web y una tabla de navegación de contenidos.
+
+<footer>
+Define el pie de una página o sección. Usualmente contiene un mensaje de derechos de autoría, algunos enlaces a información legal o direcciones para dar información de retroalimentación.
+
+<address>
+Define una sección que contiene información de contacto.
+
+<main>
+Define el contenido principal o importante en el documento. Solamente existe un elemento <main> en el documento.
+
+<form>
+Representa un formulario, con atributos de controles que puede ser enviado a un servidor para procesamiento.
+
+<img>
+Representa una imagen.
+
+<iframe>
+Representa un contexto anidado de navegación, es decir, un documento HTML embebido.
+
+<a>
+Representa un hiperenlace, enlazando a otro recurso.
+
+<em>
+Representa un texto enfatizado, como un acento de intensidad.
+
+<strong>
+Representa un texto especialmente importante .
+
+<small>
+Representa un comentario aparte, es decir, textos secundarios como un descargo de responsabilidad o una nota de derechos de autoría, que no son esenciales para la comprensión del documento.
