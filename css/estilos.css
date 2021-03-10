@@ -104,7 +104,7 @@ hr{
   color: var(--white-color);
 }
 .main_btn:hover{
-  background-color: #63a426;
+  background-color:var(--green-color);
 }
 
 /* Beneficios */
