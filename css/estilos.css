@@ -43,6 +43,7 @@ nav a{
 
 nav a:hover{
   color: var(--white-color);
+  font-weight: bolder;
 }
 
 nav ul {
@@ -124,6 +125,11 @@ hr{
 
 .text_beneficio{
   text-align: justify;
+}
+
+.tortas{
+  height: 247px;
+  width: 190px;
 }
 
 /* Mentions */
