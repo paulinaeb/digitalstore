@@ -81,7 +81,7 @@ hr{
 
 .product{
   padding: 20px;
-  margin-top: -226px;
+  margin-top: -265px;
 }
 
 .image-product{
@@ -93,6 +93,7 @@ hr{
   background: var(--white-color);
   border-radius: 3px;
   box-shadow: 0px 0 2px 1px #e6e5e9;
+  text-align: center;
 }
 
 .main_btn{
