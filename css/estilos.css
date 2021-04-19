@@ -2,9 +2,9 @@
 /*------ Variables */
 :root{
   /*------ Colores */
-  --green-color: #45d6b7;
+  --main-color: #edc2fc;
   --black-color: #313337;
-  --white-color: white;
+  --white-color: #296181;
   /*------ Tipografía */
   --normal:12px;
   /*------ Espaciado */
@@ -32,18 +32,24 @@ nav{
   align-items: center;
   padding: var(--space);
   min-height: 60px;
-  background-color: var(--green-color);
+  background-color: var(--main-color);
+}
+
+nav img{
+  width: 20%;
+  height: 20%;
 }
 
 nav a{
   text-decoration: none;
-  color: var(--black-color);
+  color: var(--white-color);
   font-size: var(--normal);
+  font-weight: bold;
 }
 
 nav a:hover{
-  color: var(--white-color);
   font-weight: bolder;
+  text-decoration: underline;
 }
 
 nav ul {
@@ -51,7 +57,7 @@ nav ul {
 }
 
 nav ul li{
-  padding-right: 20px;
+  padding-right: 30px;
   list-style: none;
 }
 
@@ -63,10 +69,29 @@ hr{
 
 .main_section{
   text-align: center;
-  padding: 15%;
+  padding: 13%;
+}
+
+.inicial{
+  padding: var(--space);
+  background-color: var(--main-color);
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--white-color);
+  font-weight: bold;
+  padding: 1%;
+}
+
+.inicial a{
+  text-decoration: none;
 }
 
 /* -------------------------------------------  PRODUCTOS */
+
+.contenido{
+  margin-top: 100px;
+}
 
 .products{
   background-image: url("../images/curve.png");
@@ -76,12 +101,11 @@ hr{
   display: flex;
   height: 95px;
   background-size: cover;
-
 }
 
 .product{
   padding: 20px;
-  margin-top: -265px;
+  margin-top: -190px;
 }
 
 .image-product{
@@ -90,7 +114,7 @@ hr{
 
 .content{
   padding: 20px;
-  background: var(--white-color);
+  background: white;
   border-radius: 3px;
   box-shadow: 0px 0 2px 1px #e6e5e9;
   text-align: center;
@@ -98,15 +122,16 @@ hr{
 
 .main_btn{
   padding: var(--space);
-  background-color: var(--green-color);
+  background-color: var(--main-color);
   width: 100%;
   border: 0px;
   border-radius: 2px;
   cursor: pointer;
   color: var(--white-color);
+  font-weight: bold;
 }
 .main_btn:hover{
-  background-color:var(--green-color);
+  text-decoration: underline;
 }
 
 /* Beneficios */
@@ -156,7 +181,7 @@ h2.mention_title{
 /* ------------------------------------------- Venta */
 
 .modulo_pago{
-background-color:var(--white-color);
+background-color:white;
 box-shadow: var(--box);
 padding:var(--space);
 }
@@ -191,7 +216,7 @@ footer{
   display: flex;
   justify-content: space-between;
   font-size: var(--normal);
-  background-color: var(--black-color);
+  background-color: var(--main-color);
   padding: var(--space);
   color: var(--white-color);
   margin-top: 3.1%;
