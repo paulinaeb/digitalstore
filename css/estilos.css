@@ -69,7 +69,9 @@ hr{
 
 .main_section{
   text-align: center;
-  padding: 13%;
+  padding: 10.5%;
+  font-family: 'Miniver', cursive;
+  font-size: 50px;
 }
 
 .inicial{
