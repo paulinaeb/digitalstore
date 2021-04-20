@@ -73,7 +73,7 @@ hr{
 
 .main_section{
   text-align: center;
-  padding: 11%;
+  padding: 12%;
   font-family: 'Miniver', cursive;
   font-size: 48px;
   font-weight: lighter;
@@ -156,10 +156,6 @@ hr{
   padding: 20px;
 }
 
-.beneficio img{
-  max-height: 100px
-}
-
 .text_beneficio{
   text-align: justify;
 }
@@ -167,6 +163,13 @@ hr{
 .tortas{
   height: 247px;
   width: 190px;
+  border-radius: 10px;
+}
+
+.torta{
+  height: 300px;
+  width: 190px;
+  border-radius: 10px;
 }
 
 /* Mentions */
@@ -175,9 +178,11 @@ hr{
   padding: 5%;
 }
 .mention img{
-  width: 100%;
+  width: 290px;
+  height: 200px;
+  border-radius: 4px;
 }
-h2.mention_title{
+.mention h3, .mention_title{
   text-align: center;
 }
 .mention{
@@ -185,6 +190,7 @@ h2.mention_title{
 }
 .content_mention{
   box-shadow: 0px 0 2px 1px #e6e5e9;
+  border-radius: 4px;
 }
 .mention .text{
   padding: var(--space);
