@@ -176,6 +176,7 @@ hr{
 .mentions{
   display: flex;
   padding: 5%;
+  overflow-x: scroll;
 }
 .mention img{
   width: 290px;
