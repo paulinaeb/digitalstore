@@ -36,8 +36,8 @@ nav{
 }
 
 nav img{
-  width: 20%;
-  height: 20%;
+  width: 187px;
+  height: 58px;
 }
 
 nav a{
@@ -45,6 +45,10 @@ nav a{
   color: var(--white-color);
   font-size: var(--normal);
   font-weight: bold;
+}
+
+nav li a{
+  width: 150px;
 }
 
 nav a:hover{
@@ -69,9 +73,10 @@ hr{
 
 .main_section{
   text-align: center;
-  padding: 10.5%;
+  padding: 11%;
   font-family: 'Miniver', cursive;
-  font-size: 50px;
+  font-size: 48px;
+  font-weight: lighter;
 }
 
 .inicial{
@@ -83,6 +88,10 @@ hr{
   color: var(--white-color);
   font-weight: bold;
   padding: 1%;
+}
+
+.inicial:hover{
+  text-decoration: underline;
 }
 
 .inicial a{
